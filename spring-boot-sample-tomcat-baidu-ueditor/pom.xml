@@ -42,8 +42,8 @@
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-			<scope>provided</scope>
 		</dependency>
+		<!-- 本地启动 报错，不需要这个Provided -->
 		<!-- Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
